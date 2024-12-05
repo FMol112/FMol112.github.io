@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>context</title>
+	</head>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #f4f4f4;
+		}
+
+		.container {
+			width: 100%;
+			margin: auto;
+			overflow: hidden;
+			background: url('316-1F605194105.jpg') no-repeat center center fixed;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+
+		.header {
+			background-color: rgba(0, 0, 0, 0.5);
+			color: white;
+			padding: 10px 0;
+			text-align: center;
+		}
+
+		.content {
+			background-color: rgba(255, 255, 255, 0.8);
+			padding: 20px;
+			border-radius: 8px;
+		}
+
+		.news-section {
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			margin: 20px 0;
+
+		}
+
+
+		.news-item {
+			width: 30%;
+			margin-bottom: 20px;
+			background-color: rgba(0, 0, 0, 0.8);
+			color: white;
+			padding: 10px;
+			border-radius: 8px;
+			text-align: center;
+			transition: transform 0.3s ease;
+			/* 添加过渡效果到.news-item */
+			transform-origin: center;
+			/* 设置变换的基点为新闻项的中心 */
+		}
+
+		.news-item:hover {
+			transform: scale(1.1);
+		}
+
+		.news-item img {
+			width: 100%;
+			height: auto;
+			margin-bottom: 10px;
+		}
+
+
+		.news-item button {
+			background-color: #f4c20d;
+			color: black;
+			border: none;
+			padding: 10px;
+			border-radius: 5px;
+			cursor: pointer;
+			margin-top: 10px;
+		}
+
+		.news-item button:hover {
+			background-color: #f5d76e;
+			transform: scale(1.1);
+			/* 鼠标悬停时放大图片 */
+		}
+
+		img {
+			max-width: 100%;
+			height: auto;
+			display: block;
+			margin: 20px auto;
+		}
+
+		.content p {
+			text-align: center;
+			/* 使文本居中 */
+
+			overflow: hidden;
+			/* 隐藏超出容器的文本 */
+			text-overflow: ellipsis;
+			/* 使用省略号表示被截断的文本 */
+			margin: 0;
+			/* 移除默认的外边距 */
+			font-size: 1.2em;
+			/* 增加字体大小 */
+			line-height: 1.6;
+			/* 增加行高 */
+
+		}
+
+		.banner {
+			position: relative;
+			width: 100%;
+			height: auto;
+			margin-bottom: 20px;
+			background-size: cover;
+			text-align: center;
+			color: white;
+			padding: 20px;
+
+		}
+
+		.banner img {
+			border: 4px solid #f4c20d;
+			/* 为图片添加边框 */
+		}
+
+		.banner h2 {
+			margin-top: 10px;
+		}
+
+		.banner p {
+			margin: 10px 0;
+		}
+
+		.banner button {
+			background-color: #f4c20d;
+			color: black;
+			border: none;
+			padding: 10px 20px;
+			border-radius: 5px;
+			cursor: pointer;
+			margin-top: 10px;
+		}
+
+		.banner button:hover {
+			background-color: #f5d76e;
+		}
+	</style>
+	<body>
+		<div class="container">
+			<div class="header">
+				<h1>《席德·梅尔的文明VI》</h1>
+				<p>发布日期：2016年10月</p>
+			</div>
+			<div class="content">
+				<div style="width: 50%;margin: 0 auto;">
+					<p><br />
+						与其他屡获殊荣的《文明》前作一样，《席德·梅尔的文明VI》将挑战玩家构建能够历经时代考验的帝国的能力。
+						在基础游戏中扮演20位能力及特权各不相同的领袖之一，并引领你选择的文明从石器时代步入信息时代。
+						在五种胜利条件的其中一条道路上，研究新科技、开展外交活动并发动战争。
+					</p><br />
+				</div>
+				<img src="R-C.jpg" alt="" />
+				<div style="width: 50%;margin: 0 auto;">
+					<p><br />
+						如果你玩过这个系列的前作游戏，那么如果你想在《文明VI》中取得科学或文化胜利，就得学一些新的技巧。
+						取得科学胜利现在玩家需要登上月球，然后建立活性殖民地，而取得文化胜利则是通过旅游业实现。统治胜利和分数胜利基本没有变化。
+						宗教胜利则是此系列的新增内容，将挑战玩家利用使徒和传教士单位将自己的宗教传播至其他文明的能力。
+						当你的宗教在地图上的所有文明中占据主导地位，你就赢了。
+					</p><br />
+				</div>
+
+				<hr width="" size="10px" color="black" />
+
+				<div class="banner">
+					<img src="Civ6_LP_thumb.avif" alt="">
+					<h2>CIVILIZATION VI LEADER PASS</h2>
+					<p> 资 讯 </p>
+					<button onclick="location.href='information.html'">了解更多</button>
+				</div>
+				<hr width="" size="10px" color="black" />
+				<div class="news-section">
+					<div class="news-item">
+						<img src="316-1F605194103.jpg" alt="">
+						<h3> 秦始皇 </h3>
+						<button onclick="location.href=''">了解更多</button>
+					</div>
+					<div class="news-item">
+						<img src="R-C (2).jpg" alt="">
+						<h3> 彼得大帝 </h3>
+						<button onclick="location.href=''">了解更多</button>
+					</div>
+					<div class="news-item">
+						<img src="197-23011GQ402.jpg" alt="">
+						<h3> 永乐大帝 </h3>
+						<button onclick="location.href=''">了解更多</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

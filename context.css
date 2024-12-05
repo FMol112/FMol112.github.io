@@ -1,0 +1,87 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+}
+
+.container {
+	width: 85%;
+	margin: auto;
+	overflow: hidden;
+	background: url('img/316-1F605194105.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.header {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.content {
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 20px;
+	border-radius: 8px;
+}
+
+.news-section {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 20px 0;
+
+}
+
+
+.news-item {
+	width: 30%;
+	margin-bottom: 20px;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	padding: 10px;
+	border-radius: 8px;
+	text-align: center;
+	transition: transform 0.3s ease;
+	/* 添加过渡效果到.news-item */
+	transform-origin: center;
+	/* 设置变换的基点为新闻项的中心 */
+}
+
+.news-item:hover {
+	transform: scale(1.1);
+}
+
+.news-item img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+
+.news-item button {
+	background-color: #f4c20d;
+	color: black;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+.news-item button:hover {
+	background-color: #f5d76e;
+	transform: scale(1.1);
+	/* 鼠标悬停时放大图片 */
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 20px auto;
+}
